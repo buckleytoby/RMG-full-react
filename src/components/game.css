@@ -1,0 +1,31 @@
+.game{
+    height: 1000px;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+.planetDiv{
+    height: 100px;
+    width: 100px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 80px;
+    left: 0;
+  }
+.planet {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 0px;
+    left: 0;
+  }
